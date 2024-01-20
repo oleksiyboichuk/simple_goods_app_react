@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/simple_goods_app_react/static/css/main.d089f324.css",
-    "main.js": "/simple_goods_app_react/static/js/main.33a24dad.js",
+    "main.js": "/simple_goods_app_react/static/js/main.9eb554a2.js",
     "static/media/banner-background.jpg": "/simple_goods_app_react/static/media/banner-background.bba61fe33c87c1205db7.jpg",
     "static/media/slider-background.jpg": "/simple_goods_app_react/static/media/slider-background.6bf3531f1e0a7f5b5f13.jpg",
     "static/media/product-background.jpg": "/simple_goods_app_react/static/media/product-background.b8ecd967faaa7ca46252.jpg",
     "index.html": "/simple_goods_app_react/index.html",
     "main.d089f324.css.map": "/simple_goods_app_react/static/css/main.d089f324.css.map",
-    "main.33a24dad.js.map": "/simple_goods_app_react/static/js/main.33a24dad.js.map"
+    "main.9eb554a2.js.map": "/simple_goods_app_react/static/js/main.9eb554a2.js.map"
   },
   "entrypoints": [
     "static/css/main.d089f324.css",
-    "static/js/main.33a24dad.js"
+    "static/js/main.9eb554a2.js"
   ]
 }
