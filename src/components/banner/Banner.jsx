@@ -27,7 +27,7 @@ export const Banner = () => {
 							</div>
 						</div>
 						<div className='hidden w-full md:w-1/2 order-2 mx-auto	md:block'>
-							<img className='block mx-auto w-[90%] animate-pulse-banner' src="/image/owl.png" alt="" />
+							<img className='block mx-auto w-[90%] animate-pulse-banner' src="./image/owl.png" alt="" />
 						</div>
 					</div>
 					<div
