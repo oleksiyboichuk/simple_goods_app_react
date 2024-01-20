@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-bg {
+    background-image: url(/public/image/product-background.jpg);
+}
+
+.slider-bg {
+    background-image: url(/public/image/slider-background.jpg);
+}
+
+.my-block {
+    background-image: url(/public/image/banner-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.underline-from-right {
+    position: relative;
+    overflow: hidden;
+}
+
+.underline-from-right::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background-color: #3498db;
+    /* Змініть колір за потребою */
+    transition: right 0.3s ease-in-out;
+}
+
+.underline-from-right:hover::before {
+    right: 0;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse-banner {
+    0% {
+        transform: scale(1.1) rotate(-5deg);
+        ;
+    }
+
+    50% {
+        transform: scale(1) rotate(0deg);
+        ;
+    }
+
+    100% {
+        transform: scale(1.1) rotate(-5deg);
+        ;
+    }
+}
+
+.animate-pulse-banner {
+    animation: pulse-banner 7s infinite;
+}
